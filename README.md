@@ -15,13 +15,17 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 The time we greeted you.
 
 ## Example usage
-
+```yml
 uses: jpacareu-meli/github-action-docker@v1
 with:
   who-to-greet: 'Mona the Octocat'
+```
 
 ## Release
-> $ git add .
-> $ git commit -m "My commit message"
-> $ git tag -a -m "My release message" v1
-> $ git push --follow-tags
+  > $ git add .
+
+  > $ git commit -m "My commit message"
+
+  > $ git tag -a -m "My release message" v1
+
+  > $ git push --follow-tags
