@@ -2,7 +2,7 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
-  entryPoint:  # id of input
+  whotogreet:  # id of input
     description: 'Who to greet'
     required: true
     default: 'World'
@@ -13,4 +13,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.entryPoint }}
+    - ${{ inputs.whotogreet }}
