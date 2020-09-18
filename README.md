@@ -21,7 +21,7 @@ with:
   who-to-greet: 'Mona the Octocat'
 
 ## Release
-git add .
-git commit -m "My commit message"
-git tag -a -m "My release message" v1
-git push --follow-tags
+> $ git add .
+> $ git commit -m "My commit message"
+> $ git tag -a -m "My release message" v1
+> $ git push --follow-tags
