@@ -4,7 +4,7 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 
 ## Inputs
 
-### `who-to-greet`
+### `entryPoint`
 
 **Required** The name of the person to greet. Default `"World"`.
 
@@ -18,10 +18,11 @@ The time we greeted you.
 ```yml
 uses: jpacareu-meli/github-action-docker@v1
 with:
-  who-to-greet: 'Mona the Octocat'
+  entryPoint: 'Mona the Octocat'
 ```
 
 ## Release
+
   > $ git add .
 
   > $ git commit -m "My commit message"
