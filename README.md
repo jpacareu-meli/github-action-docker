@@ -19,3 +19,9 @@ The time we greeted you.
 uses: jpacareu-meli/github-action-docker@v1
 with:
   who-to-greet: 'Mona the Octocat'
+
+## Release
+git add .
+git commit -m "My commit message"
+git tag -a -m "My release message" v1
+git push --follow-tags
